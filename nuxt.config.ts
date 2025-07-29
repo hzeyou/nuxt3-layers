@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   $meta: {
     name: 'example',
   },
+  css: [
+    '@/assets/main.css'
+  ]
 })
