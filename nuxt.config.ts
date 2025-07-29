@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   $meta: {
-    name: 'example11',
+    name: 'example',
   },
 })
