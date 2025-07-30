@@ -10,5 +10,12 @@ export default defineNuxtConfig({
   },
   css: [
     join(currentDir, './assets/main.css')
-  ]
+  ],
+  app: {
+    head: {
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ],
+    }
+  }
 })
